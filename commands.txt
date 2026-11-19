@@ -1,0 +1,35 @@
+node -v
+node --version
+npm -v
+npm --version
+npm install -g typescript - globally installed system wide we can use it for any directory
+npm install --save-dev typescript - same version for team
+npm install typescript - for current project
+ if globally installed
+tsc -v
+tsc --version
+if locally installed
+npx tsc
+to execute the ts we need tsc ,which converts ts file to js file , thereafter we execute it using node file.js
+tsc filepath\file.tsc,npx tsc filepath\file.ts
+node filepath\file.js
+
+to execute the ts file directly 
+we can install tsx which has jsx
+npm install tsx
+
+npm init -y
+create specific files- package.json
+
+npm install -g typescript 
+create specific files- package.json, package-lock.json, node_modules
+
+npx tsc --init
+npx tsc
+
+-D (--save-dev) installs a package as a development dependency and adds it to the devDependencies section of package.json.
+
+npm install -D @types/node
+npm install -D @playwright/test
+
+
