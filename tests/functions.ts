@@ -30,3 +30,4 @@ function addNumbersReturn2(price:number , defaultDiscount:number=0.50){
 let mutliply =function(a:number,b:number){
     return a*b;
 }
+console.log(mutliply(5,10)) //50
