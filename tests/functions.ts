@@ -17,5 +17,16 @@ function addNumbers(...numbers:number[]){
 }
 
 function addNumbersReturn(...numbers:(number|string)[]){
-    
+}
+function addNumbersReturn1(numbers:number[],strings?:string){
+
+} 
+function addNumbersReturn2(price:number , defaultDiscount:number=0.50){
+
+}
+//named function with parameters-NROD-normal,rest,optional ,default parameters
+
+//Anonymous function is a function that does not have a name. It can be assigned to a variable or passed as an argument to another function.
+let mutliply =function(a:number,b:number){
+    return a*b;
 }
