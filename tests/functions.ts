@@ -31,3 +31,10 @@ let mutliply =function(a:number,b:number){
     return a*b;
 }
 console.log(mutliply(5,10)) //50
+
+//Arrow function is a shorthand syntax for writing anonymous functions. It uses the => syntax and does not have its own this context.
+let divide = (a:number,b:number):number=>{
+    return a/b;
+}
+//implicit return type
+let divide1 = (a:number,b:number)=> a/b;
